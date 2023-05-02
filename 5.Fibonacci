@@ -1,0 +1,7 @@
+Fibonnaci <- numeric(10)
+Fibonnaci[1] <- 1
+Fibonnaci[2] <- 1
+for (i in 3:10){
+ Fibonnaci[i] <- Fibonnaci[i - 2] + Fibonnaci[i - 1]
+}
+print(Fibonnaci)
