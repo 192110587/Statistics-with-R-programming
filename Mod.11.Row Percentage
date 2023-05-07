@@ -1,0 +1,5 @@
+library(tigerstats)
+
+xt <- xtabs(~ Status + Test, data = your_data_frame)
+
+rowPerc(xt, by = "Status")
