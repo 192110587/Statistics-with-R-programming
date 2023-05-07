@@ -1,0 +1,4 @@
+data(AirPassengers)
+
+hist(AirPassengers, breaks = seq(100, 700, by = 200), 
+     main = "AirPassengers Histogram", xlab = "Passenger Count")
