@@ -1,0 +1,5 @@
+# Create a multi-dimensional table using xtabs()
+xt <- xtabs(~ Status + Gender + Test, data = your_data_frame)
+
+# View the table
+xt
