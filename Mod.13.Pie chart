@@ -1,0 +1,7 @@
+input <- c(21, 62, 10, 53)
+labels <- c("London", "New York", "Singapore", "Mumbai")
+
+pie(input, labels = labels, main = "City Pie-Chart")
+
+legend("topright", inset = 0.05, c("London", "New York", "Singapore", "Mumbai"), 
+       fill = rainbow(length(input)), title = "Cities")
