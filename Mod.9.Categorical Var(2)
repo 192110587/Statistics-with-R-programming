@@ -1,0 +1,8 @@
+# Load the dataset and create a cross-tabulation using xtabs()
+xt <- xtabs(~ Reference + Status, data = dataframe1)
+
+# View the cross-tabulation
+xt
+
+# Save the cross-tabulation in a new data frame called dataframe2
+dataframe2 <- as.data.frame.matrix(xt)
